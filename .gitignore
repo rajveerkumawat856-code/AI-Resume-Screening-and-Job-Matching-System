@@ -1,0 +1,93 @@
+
+# =========================
+# Python cache files
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Environment variables / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Trained models and large artifacts
+# =========================
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.onnx
+
+# =========================
+# Resume files and private data
+# =========================
+data/
+datasets/
+uploads/
+resumes/
+*.pdf
+*.docx
+*.doc
+
+# Keep an empty folder if needed
+# !data/.gitkeep
+
+# =========================
+# Generated outputs
+# =========================
+outputs/
+logs/
+*.log
+*.tmp
+
+# =========================
+# Testing and coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# IDE and editor files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Build and distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# FastAPI / Streamlit
+# =========================
+.streamlit/secrets.toml
